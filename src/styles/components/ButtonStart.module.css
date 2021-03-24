@@ -1,0 +1,41 @@
+
+.container a {
+    background: var(--dark-green);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.8rem 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 8px 0px var(--dark-green2);
+    
+    transition: background-color 1s;
+    transition: transform .2s;
+}
+
+.container a:hover {
+    background-color: var(--green);
+    transform: scale(1.1);
+}
+
+.container a strong {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+
+}
+.container a span {
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 26rem;
+
+}
+
+@media (max-width: 425px) {
+    .container a {
+        padding: 1.5rem 4rem;
+        box-shadow: 0 8px 0px var(--dark-green2);
+    }
+}

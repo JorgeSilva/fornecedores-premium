@@ -1,0 +1,26 @@
+.container a {
+    background: var(--dark-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 4rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 6px 0px var(--dark-green2);
+    
+    transition: background-color 1s;
+    transition: transform .2s;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 32rem;
+}
+
+.container a:hover {
+    background-color: var(--green);
+    transform: scale(1.1);
+}
