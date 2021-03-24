@@ -57,7 +57,7 @@ export function Beneficios() {
                     <div className={styles.item}>
                         <img src="icons/homem-de-negocios.png" alt="Independência" />
                         <span>
-                            UM SALTO PARA A SUA INDEPENDÊNCIA FINANCEIRAUM SALTO PARA A SUA INDEPENDÊNCIA FINANCEIRA
+                            UM SALTO PARA A SUA INDEPENDÊNCIA FINANCEIRA
                         </span>
                     </div>
                     <div className={styles.item}>

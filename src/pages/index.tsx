@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import { AboutMe } from '../components/AboutMe'
 import { Beneficios } from '../components/Beneficios'
-import { ButtonOneText } from '../components/ButtonOneText'
+import { ButtonTwoText } from '../components/ButtonTwoText'
 import { CountDown } from '../components/CountDown'
 import { Depoimentos } from '../components/Depoimentos'
 import { DuvidasFrequentes } from '../components/DuvidasFrequentes'
@@ -33,7 +33,7 @@ export default function Home() {
         </section>
         <section className={styles.photosContainer}>
           <LibraryPhotos />
-          <ButtonOneText text="SIM! QUERO GARANTIR O MEU ACESSO AOS FORNECEDORES AGORA COM DESCONTO!"/>
+          <ButtonTwoText text="SIM! QUERO GARANTIR O MEU ACESSO AOS FORNECEDORES AGORA COM DESCONTO"/>
        </section>
        <section className={styles.countContainer}>
          <CountDown />
